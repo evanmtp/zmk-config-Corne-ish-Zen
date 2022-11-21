@@ -61,39 +61,29 @@
                 lower_layer {
 // -----------------------------------------------------------------------------------------
 // | ~         | !         | @         | #         | $         | %         |   | ^         | &         | *         | (         | )         | BKSP       |
-// | ESC       |           |           |           |           |           |   |           | _         | +         | {         | }         | |          |
-// | SHFT      |           |           |           |           |           |   |           | LFT       | DWN       | UP        | RGT       | RET        |
-//                                     |  CTRL     |           | SPC       |   | SPC       |           | ALT       |
+// | ESC       | F1        | F2        | F3        | F4        | F5        |   | F6        | _         | +         | {         | }         | |          |
+// | SHFT      | F7        | F8        | F9        | F10       | F11       |   | F12       | LFT       | DWN       | UP        | RGT       | RET        |
+//                                     |  CTRL     |           | GUI       |   | SPC       |           | ALT       |
                         bindings = <
 
      AS(TILDE)   AS(EXCL)    AS(AT)      AS(HASH)    AS(DLLR)    AS(PRCNT)       AS(CARET)   AS(AMPS)    AS(KP_MULTIPLY) AS(LPAR) AS(RPAR)   &kp BSPC
-     &kp ESC     &trans      &trans      &trans      &trans      &trans          &trans      AS(UNDER)   AS(PLUS)    AS(LBRC)    AS(RBRC)    AS(PIPE)
-     &kp LSHFT   &trans      &trans      &trans      &trans      &trans          &trans      &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &kp RET
-                                         &kp LCTRL   &trans      &kp SPACE       &kp SPACE   &trans      &kp RALT
-
-//     &kp TILDE   &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp PRCNT       &kp CARET   &kp AMPS    &kp KP_MULTIPLY &kp LPAR &kp RPAR   &kp BSPC
-//     &trans      &trans      &trans      &trans      &trans      &trans          &trans      &kp UNDER   &kp PLUS   &kp LBRC     &kp RBRC    &kp PIPE
-//     &kp LSHFT   &trans      &trans      &trans      &trans      &trans          &kp LEFT    &kp DOWN    &kp UP     &kp RIGHT    &trans      &kp RET
-//                                         &kp LCTRL   &trans      &kp SPACE       &kp SPACE   &trans      &kp RALT
+     &kp ESC     &kp F1      &kp F2      &kp F3      &kp F4      &kp F5          &kp F6      AS(UNDER)   AS(PLUS)    AS(LBRC)    AS(RBRC)    AS(PIPE)
+     &kp LSHFT   &kp F7      &kp F8      &kp F9      &kp F10     &kp F11         &kp F12     &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &kp RET
+                                         &kp LCTRL   &trans      &kp LGUI       &kp SPACE   &trans      &kp RALT
                         >;
                 };
 
                 raise_layer {
 // -----------------------------------------------------------------------------------------
 // | `         | 1         | 2         | 3         | 4         | 5         |   | 6         | 7         | 8         | 9         | 0        | BKSP       |
-// | ESC       |           |           |           |           |           |   |           | -         | =         | [         | ]        | \          |
-// | SHFT      |           |           |           |           |           |   |           | LFT       | DWN       | UP        | RGT      | RET        |
-//                                     | CTRL      |           | SPC       |   | SPC       |           | ALT       |
+// | ESC       | F1        | F2        | F3        | F4        | F5        |   | F6        | -         | =         | [         | ]        | \          |
+// | SHFT      | F7        | F8        | F9        | F10       | F11       |   | F12       | LFT       | DWN       | UP        | RGT      | RET        |
+//                                     | CTRL      |           | GUI       |   | SPC       |           | ALT       |
                         bindings = <
      AS(GRAVE)   AS(N1)      AS(N2)      AS(N3)      AS(N4)      AS(N5)          AS(N6)      AS(N7)      AS(N8)      AS(N9)      AS(N0)     &kp BSPC
-     &kp ESC     &trans      &trans      &trans      &trans      &trans          &trans      AS(MINUS)   AS(EQUAL)   AS(LBKT)    AS(RBKT)   AS(BSLH)
-     &kp LSHFT   &trans      &trans      &trans      &trans      &trans          &trans      &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT  &kp RET
-                                         &kp LCTRL   &trans      &kp SPACE       &kp SPACE   &trans      &kp RALT
-
-//     &kp GRAVE   &kp N1      &kp N2      &kp N3      &kp N4      &kp N5          &kp N6      &kp N7      &kp N8      &kp N9      &kp N0     &kp BSPC
-//     &kp ESC     &trans      &trans      &trans      &trans      &trans          &trans      &kp MINUS   &kp EQUAL   &kp LBKT    &kp RBKT   &kp BSLH
-//     &kp LSHFT   &trans      &trans      &trans      &trans      &trans          &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &kp PIPE   &kp RET
-//                                         &kp LCTRL   &trans      &kp SPACE       &kp SPACE   &trans      &kp RALT
+     &kp ESC     &kp F1      &kp F2      &kp F3      &kp F4      &kp F5          &kp F6      AS(MINUS)   AS(EQUAL)   AS(LBKT)    AS(RBKT)   AS(BSLH)
+     &kp LSHFT   &kp F7      &kp F8      &kp F9      &kp F10     &kp F11         &kp F12     &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT  &kp RET
+                                         &kp LCTRL   &trans      &kp LGUI        &kp SPACE   &trans      &kp RALT
                         >;
                 };
 
