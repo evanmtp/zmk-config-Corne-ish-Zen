@@ -21,7 +21,7 @@
             key-positions = <3 4 5>;
             bindings = <&tog AUTOCAP>;
         };
-        
+
         combo_config {
             timeout-ms = <50>;
             key-positions = <3 4 5>;
@@ -29,7 +29,7 @@
         };
     };
  };
-
+//
 / {
         behaviors {
             as: auto_shift {
