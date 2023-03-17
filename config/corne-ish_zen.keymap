@@ -69,7 +69,7 @@
      AS(TILDE)   AS(EXCL)    AS(AT)      AS(HASH)    AS(DLLR)    AS(PRCNT)       AS(CARET)   AS(AMPS)    AS(KP_MULTIPLY) AS(LPAR) AS(RPAR)   &kp BSPC
      &kp ESC     &kp F1      &kp F2      &kp F3      &kp F4      &kp F5          &kp F6      AS(UNDER)   AS(PLUS)    AS(LBRC)    AS(RBRC)    AS(PIPE)
      &kp LSHFT   &kp F7      &kp F8      &kp F9      &kp F10     &kp F11         &kp F12     &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &kp RET
-                                         &kp LCTRL   &trans      &kp LGUI        &kp SPACE   &trans      &kp LALT
+                                         &kp LCTRL   &trans      &kp LGUI        &kp SPACE   &mo 3       &kp LALT
                         >;
                 };
 
@@ -84,7 +84,7 @@
      AS(GRAVE)   AS(N1)      AS(N2)      AS(N3)      AS(N4)      AS(N5)          AS(N6)      AS(N7)      AS(N8)      AS(N9)      AS(N0)     &kp BSPC
      &kp ESC     &kp F1      &kp F2      &kp F3      &kp F4      &kp F5          &kp F6      AS(MINUS)   AS(EQUAL)   AS(LBKT)    AS(RBKT)   AS(BSLH)
      &kp LSHFT   &kp F7      &kp F8      &kp F9      &kp F10     &kp F11         &kp F12     &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT  &kp RET
-                                         &kp LCTRL   &trans      &kp LGUI        &kp SPACE   &trans      &kp LALT
+                                         &kp LCTRL   &mo 3       &kp LGUI        &kp SPACE   &trans      &kp LALT
                         >;
                 };
 
